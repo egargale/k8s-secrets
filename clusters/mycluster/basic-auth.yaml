@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+    password: ENC[AES256_GCM,data:pqXwZlPzlicDBAHr,iv:6RWAMgvm+lAcZOMG1QL4XLgEwazNh5+CV3+l6PiqQ/Y=,tag:ldrXOy/hjF05Dq4cYejY8g==,type:str]
+    user: ENC[AES256_GCM,data:rcDswb3xn1Q=,iv:zwFpWIomKqT+vwDEQiaWa3B7qz5fj1jCcOfH5hg+Mzs=,tag:DPfO6ubEonoVXnBXaaKvWA==,type:str]
+kind: Secret
+metadata:
+    creationTimestamp: null
+    name: basic-auth
+    namespace: default
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2022-06-16T14:29:31Z"
+    mac: ENC[AES256_GCM,data:vea0+AtrTON+oxRmEKn2+zIYZ4X7EuND3+KKI+3fOUZaS5gfSgJsZ1rb7s0z37smfw9ekIIw4wNBEgMPGPg1vYEDYLuDLxO80J0HATuvdZC/3g+FUc8j3rWnIv1Ys5B6P9tv3mrohVXhjmX0RIgJbTpQt+B0SF2BvEzw2RJdC6E=,iv:JhIvXWTGwHMXk7K2GU9mqZhXcoOx2u18pAO0gpLOdTU=,tag:OKPsub+2qJd4surzX3968Q==,type:str]
+    pgp:
+        - created_at: "2022-06-16T14:29:31Z"
+          enc: |
+            -----BEGIN PGP MESSAGE-----
+
+            hQEMA1PDY17aMF/BAQf+KBGxoVki3DgAh0y9yPXNbjm4DYVZFFZaKbPY4qfatcXf
+            5E6mRjLixaKeQnYgUixqXYmqFMA/Oh2YrGop+6jNDs8wfBzlSq9sDh7kBAbNMkor
+            JjSF0PgeVH24ZJJi6T2A6/om16DM3vKci6OktH9lmWUip9ULmb9lfgMQ8bIX6Inc
+            BQN2bJAzbICPqloYvGbJOrbY3Yp6uUn2SctCGu7sxS6uv8VkZfluv3Lnj1mSrQWB
+            yKZks0XbArfHBe+kuTkIQF2h+2ZO7C4dChwxhaBl4G+jAnF+Nwp6dXoDCWu0XjHW
+            r+SfAT1wXQvgnFZyW6yKdhDUEvvRhuCqc+dan5z8M9JcAdZzw/OmYaJCmMTWxRkD
+            OO9x+XRx09MQe/5H9ccb3YKxmnC61VHYCp3d6YYkaOEGsmhU3+wFvokYxdyzr8+6
+            Ewl9ktEetl+48Yr86/q9/qTfSBVEVBzKQk7HVG4=
+            =ACFK
+            -----END PGP MESSAGE-----
+          fp: B956F8F04205E68DB4798D853B9FD16889B70FBE
+    encrypted_regex: ^(data|stringData)$
+    version: 3.7.3
